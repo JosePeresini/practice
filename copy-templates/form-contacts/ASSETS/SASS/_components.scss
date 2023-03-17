@@ -1,0 +1,51 @@
+.btn-form-forgot {
+    border: none;
+    background: #ffffff;
+    font-weight: 700;
+    float: right;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.btn-form-signin {
+    color: #ededed;
+    background: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .3rem;
+    text-align: center;
+    width: 20rem;
+    
+    &:hover {
+        border: #000 1px solid;
+    }
+}
+
+.btn-form-signin-g {
+    background: #ffffff;
+    border: solid 1px #cccccc;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .4rem;
+    text-align: center;
+    width: 20rem;
+    i {
+        color: red;
+        font-size: .9rem;
+        margin: 0 .15rem;
+    }
+    &:hover {
+        border: 1px solid #ededed;
+    }
+}
+
+.btn-form-signup {
+    border: none;
+    background: #ffffff;
+    font-weight: 700;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
