@@ -1,0 +1,68 @@
+@use "colors";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: colors.$color-mid-tone;
+}
+
+.nav-bar {
+	align-items: center;
+	background-color: colors.$color-dark;
+	display: flex;
+	height: auto;
+	justify-content: space-between;
+
+	.nav-img {
+		border: 1px solid colors.$color-dark;
+		border-radius: 100%;
+		cursor: pointer;
+		height: 50px;
+		margin: 0.5rem 0.75rem;
+		transition: all 1.5s;
+		width: auto;
+
+		&:hover {
+			border: 1px solid colors.$color-light;
+			transition: all 1.5s;
+		}
+	}
+
+	.a-f {
+		align-items: center;
+		display: flex;
+		height: auto;
+		justify-content: baseline;
+		margin-right: auto;
+		width: auto;
+
+		.a-s {
+			width: 100%;
+			animation: t-nav 10s linear infinite .1ms;
+		}
+	}
+
+	ul {
+		display: flex;
+		gap: 0.1rem;
+		margin-right: 1rem;
+
+		li {
+			list-style-type: none;
+
+			a {
+				border-radius: 10%;
+				color: colors.$color-mid-tone;
+				padding: .3rem .9rem;
+				text-decoration: none;
+
+				&:hover {
+					background-color: #FF7213;
+
+					transition: all 1.5s;
+				}
+			}
+		}
+	}
+}
+

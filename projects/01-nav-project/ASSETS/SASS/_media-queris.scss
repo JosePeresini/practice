@@ -1,0 +1,12 @@
+@use "colors";
+@use "globals";
+
+@media (max-width: 398px) {
+    .nav-bar {
+        li {
+            a {
+                display: none;
+            }
+        }
+    }
+}

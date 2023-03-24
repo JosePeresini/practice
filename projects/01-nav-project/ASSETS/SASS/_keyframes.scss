@@ -1,0 +1,28 @@
+@use "globals";
+
+@keyframes t-nav {
+    0% {
+        color: black;
+		transform: translateX(0%);
+	}
+
+    25% {
+        color: #9D50EC;
+        transform: translateX(25%);
+    }
+
+    50% {
+        color: #FF8110;
+        transform: translateX(50%);
+    }
+
+    75% {
+        color: #00B285;
+        transform: translateX(75%);
+    }
+
+    100% {
+        color: black;
+        transform: translateX(100%);
+    }    
+}
