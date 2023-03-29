@@ -1,0 +1,32 @@
+// Colores Barra de Navegación
+$color-dark: #131214;
+$color-mid-tone: #cfcfcf;
+$color-mid-tone2: #777777;
+$color-light: #fefefe;
+// $color-hover: #0A58CA;
+$color-hover: #6d8ace;
+
+// Margenes
+$margin-left-and-right: 0 20rem;
+$margin-top-and-bottom: 7rem 0;
+
+// Tipos de fuente
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Niramit:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+$font-title: "Days One", sans-serif;
+
+//! Regular 400
+
+$font-txt: "Niramit", sans-serif;
+
+/*
+!Light 300
+!Light 300 Italic
+!Regular 400
+!Regular 400 Italic
+*/
+
+// Mixins
+@mixin bg-page-web {
+	background-image: linear-gradient(-66deg, #020b24 25%, #041542 50%);
+	background-repeat: no-repeat;
+}

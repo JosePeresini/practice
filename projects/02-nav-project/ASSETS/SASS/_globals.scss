@@ -1,0 +1,111 @@
+// Variables
+@use "vars";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header-start {
+	@include vars.bg-page-web;
+	color: vars.$color-light;
+}
+
+.sec-nav {
+	margin: auto 20rem;
+	
+	ul {
+		display: flex;
+		gap: 4rem;
+		margin-bottom: 0;
+		padding: 0;
+
+		li {
+			list-style: none;
+			margin-top: 3rem;
+
+			a {
+				color: vars.$color-light;
+				font-family: vars.$font-txt;
+				font-size: 1.4rem;
+				font-style: italic;
+				font-weight: 400;
+				text-decoration: none;
+				transition: all 3s;
+
+				&:hover {
+					color: vars.$color-hover;
+					transition: all 1s;
+				}
+			}
+		}
+	}
+}
+
+.sec-home {
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row nowrap;
+	margin: 15rem 20rem;
+	
+
+	.presentation-home {
+		display: flex;
+		flex-flow: column wrap;
+		margin-bottom: 5rem;
+
+		h1 {
+			font-family: vars.$font-title;
+			font-size: 2.9rem;
+		}
+
+		p {
+			font-family: vars.$font-txt;
+			font-weight: 300;
+			margin-top: 1rem;
+			width: 68%;
+		}
+	}
+
+	.icons-home {
+		align-items: baseline;
+		display: flex;
+		gap: 1rem;
+		flex-flow: wrap column;
+		font-size: 2rem;
+		margin-bottom: auto;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		text-decoration: none;
+
+		a {
+			color: vars.$color-mid-tone;
+
+			&:hover {
+				color: vars.$color-hover;
+			}
+		}
+	}
+
+	.icons-home2 {
+		align-items: baseline;
+		display: flex;
+		gap: 1rem;
+		flex-flow: wrap column;
+		font-size: 2rem;
+		margin-bottom: auto;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		text-decoration: none;
+
+		a {
+			color: vars.$color-mid-tone;
+
+			&:hover {
+				color: vars.$color-hover;
+			}
+		}
+	}
+}
+
